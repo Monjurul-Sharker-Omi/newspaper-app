@@ -1,0 +1,40 @@
+package com.example.newspaper;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
+public class amadershomoyweb extends AppCompatActivity {
+
+    private WebView amadershomoy;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_amadershomoyweb);
+        amadershomoy = (WebView) findViewById(R.id.webview_amadershomoy);
+        amadershomoy.setWebViewClient(new MyWebViewClient());
+        String url= "https://epaper.dainikamadershomoy.com/";
+        amadershomoy.getSettings().setJavaScriptEnabled(true);
+        amadershomoy.loadUrl(url);
+    }
+
+    public class MyWebViewClient extends WebViewClient{
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url){
+            view.loadUrl(url);
+            return true;
+        }
+    }
+    @Override
+    public void onBackPressed() {
+        if (amadershomoy.canGoBack()) {
+            amadershomoy.goBack();
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+}

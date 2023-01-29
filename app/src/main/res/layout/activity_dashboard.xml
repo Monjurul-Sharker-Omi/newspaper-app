@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:background="@drawable/background"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgB_prothomalo"
+                style="@android:style/Widget.ImageButton"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/custom_button"
+                android:cropToPadding="false"
+                android:onClick="prothomalo_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.129"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.066"
+                app:srcCompat="@drawable/prothom_alo" />
+
+            <ImageButton
+                android:id="@+id/imgB_prothomalo_pre"
+                style="@android:style/Widget.ImageButton"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/custom_button"
+                android:cropToPadding="false"
+                android:onClick="prothomalopre_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.129"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.066"
+                app:srcCompat="@drawable/prothomalo_pre" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_jugantor"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="jugantor_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.129"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.166"
+                app:srcCompat="@drawable/jugantor" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_ittefaq"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="ittefaq_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.898"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.066"
+                app:srcCompat="@drawable/ittefaq" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imagB_bdpratidin"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="bdpratidin_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.898"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.166"
+                app:srcCompat="@drawable/bdpratidin" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_amadershomoy"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="amadershomoy_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.898"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.266"
+                app:srcCompat="@drawable/amadershomoy" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_samakal"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="samakal_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.129"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.266"
+                app:srcCompat="@drawable/samakal" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_janakantha"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="janakantha_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.129"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.366"
+                app:srcCompat="@drawable/janakantha" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imageButton3"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="inqilab_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.898"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.366"
+                app:srcCompat="@drawable/inquilab" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/jjdin"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="jjdin_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.898"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.366"
+                app:srcCompat="@drawable/jjdin" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_dailystar"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="dailystar_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.129"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.566"
+                app:srcCompat="@drawable/daily_star" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_newage"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="newage_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.129"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.566"
+                app:srcCompat="@drawable/newage" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_nnation"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="nnation_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.129"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.566"
+                app:srcCompat="@drawable/nnation" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_independent"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="independent_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.129"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466"
+                app:srcCompat="@drawable/indipendent" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_finex"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="finex_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.898"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466"
+                app:srcCompat="@drawable/financialex" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgB_observer"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="observer_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.898"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466"
+                app:srcCompat="@drawable/observer" />
+
+            <ImageButton
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="40dp"
+                android:id="@+id/imgB_dsun"
+                android:layout_width="227dp"
+                android:layout_height="86dp"
+                android:layout_marginHorizontal="85dp"
+                android:background="@drawable/custom_button"
+                android:onClick="dsun_web"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.898"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.566"
+                app:srcCompat="@drawable/dailysun"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
